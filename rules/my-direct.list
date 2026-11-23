@@ -1,0 +1,34 @@
+# my-direct.list - 马来西亚本地直连 (自维护)
+# 格式: RULE-SET 用, 每行一个规则, 不带策略列, 策略在 surge.conf 的 [Rule] 里定
+# 例如: RULE-SET,https://raw.githubusercontent.com/doubi-rule/surge-rules/main/rules/my-direct.list,DIRECT
+# 规则: DOMAIN-SUFFIX 匹配域名+所有子域名, DOMAIN 精确匹配, DOMAIN-KEYWORD 慎用(容易误杀)
+# 排序: A-Z, 去重, 子域名被父域名覆盖的不要重复写
+
+DOMAIN-SUFFIX,affinbank.com.my
+DOMAIN-SUFFIX,ambank.com.my
+DOMAIN-SUFFIX,astro.com.my
+DOMAIN-SUFFIX,celcomdigi.com
+DOMAIN-SUFFIX,cimb.com.my
+DOMAIN-SUFFIX,cimbclicks.com.my
+DOMAIN-SUFFIX,digi.com.my
+DOMAIN-SUFFIX,foodpanda.my
+DOMAIN-SUFFIX,grab.com
+DOMAIN-SUFFIX,hasil.gov.my
+DOMAIN-SUFFIX,hlb.com.my
+DOMAIN-SUFFIX,hotlink.com.my
+DOMAIN-SUFFIX,kwsp.gov.my
+DOMAIN-SUFFIX,lazada.com.my
+DOMAIN-SUFFIX,malaysia.gov.my
+DOMAIN-SUFFIX,maxis.com.my
+DOMAIN-SUFFIX,maybank.com.my
+DOMAIN-SUFFIX,maybank2u.com.my
+DOMAIN-SUFFIX,moh.gov.my
+DOMAIN-SUFFIX,publicbank.com.my
+DOMAIN-SUFFIX,rhbgroup.com
+DOMAIN-SUFFIX,shopee.com.my
+DOMAIN-SUFFIX,tm.com.my
+DOMAIN-SUFFIX,tngdigital.com.my
+DOMAIN-SUFFIX,touchngo.com.my
+DOMAIN-SUFFIX,u.com.my
+DOMAIN-SUFFIX,unifi.com.my
+DOMAIN-SUFFIX,yes.com.my
