@@ -1,0 +1,25 @@
+# douyin.list - 中国抖音 (自维护, 走中国节点才换 IP 属地)
+# 原理: 抖音 IP 属地不能在 App 里手动改, 是系统根据出口 IP 自动判定的.
+# 想显示中国某省, 必须让抖音全部流量走一个中国 IP 的节点, 而且要是干净 / 住宅 IP,
+# 机房 IP 容易显示 IP未知 或被风控.
+# 注意: 只分流视频域名不够, 评论上报走的是 snssdk.com / pstatp.com 等字节共用域名,
+# 必须和视频走同一个中国节点, 否则刷视频换了, 评论区属地还是不变.
+# 策略在 surge.conf 里定, 例如: RULE-SET,...,🎵 抖音
+# 🎵 抖音 = select, 🇨🇳 中国, DIRECT
+# 🇨🇳 中国组里必须是你的中国 / 回国节点, 新加坡 / 香港 / 美国节点没用, 显示的还是当地.
+# 抖音属地不是实时更新, 换 IP 后通常要等几小时到一天, 别频繁切换地区.
+
+DOMAIN-SUFFIX,amemv.com
+DOMAIN-SUFFIX,bytecdn.cn
+DOMAIN-SUFFIX,bytedance.com
+DOMAIN-SUFFIX,douyin.com
+DOMAIN-SUFFIX,douyincdn.com
+DOMAIN-SUFFIX,douyinpic.com
+DOMAIN-SUFFIX,douyinstatic.com
+DOMAIN-SUFFIX,douyinvod.com
+DOMAIN-SUFFIX,idouyinvod.com
+DOMAIN-SUFFIX,ixigua.com
+DOMAIN-SUFFIX,ixiguavideo.com
+DOMAIN-SUFFIX,pstatp.com
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,toutiao.com
