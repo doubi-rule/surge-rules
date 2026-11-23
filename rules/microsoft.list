@@ -1,0 +1,44 @@
+# microsoft.list - Microsoft 365 / 学校账号登录 (自维护, 最重要, 永远 DIRECT)
+# 学校账号 = Entra ID (原 Azure AD) 工作/学校账户, 登录入口是 microsoftonline.com,
+# 不是个人账号的 live.com. 登录一次会连锁查 login.microsoftonline.com, login.live.com,
+# Azure AD 等多个域名, 缺一个就可能 MFA / SSO 失败, 所以这个文件必须放 [Rule] 最前面,
+# 并且永远 DIRECT, 绝不走代理, 绝不拦截.
+# 策略在 surge.conf 里定: RULE-SET,...,DIRECT
+# 写法说明: 用最宽的 DOMAIN-SUFFIX, 一个就覆盖全部子域名, 例如:
+#   microsoftonline.com 覆盖 login.microsoftonline.com / logincert.microsoftonline.com / passwordreset.microsoftonline.com
+#   microsoft.com 覆盖 login.microsoft.com / graph.microsoft.com / teams.microsoft.com
+#   live.com 覆盖 login.live.com / outlook.live.com / onedrive.live.com
+#   cloud.microsoft 覆盖 outlook.cloud.microsoft / teams.cloud.microsoft
+#   office.com 覆盖 outlook.office.com / online.office.com
+#   office365.com 覆盖 outlook.office365.com / smtp.office365.com
+# 所以不用把每个子域名都列一遍, 列宽域名更稳, 也不会漏.
+# 你学校的自有域名 (例如 student.xxx.edu.my / xxx.edu.my) 不在这里,
+# 要加到 rules/my-direct.list 里, 告诉我学校域名我就帮你加.
+
+DOMAIN-SUFFIX,1drv.com
+DOMAIN-SUFFIX,autologon.microsoftazuread-sso.com
+DOMAIN-SUFFIX,azure.com
+DOMAIN-SUFFIX,cloud.microsoft
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,microsoft365.com
+DOMAIN-SUFFIX,microsoftonline-p.com
+DOMAIN-SUFFIX,microsoftonline-p.net
+DOMAIN-SUFFIX,microsoftonline.com
+DOMAIN-SUFFIX,msftauth.net
+DOMAIN-SUFFIX,msftidentity.com
+DOMAIN-SUFFIX,msidentity.com
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,office.net
+DOMAIN-SUFFIX,office365.com
+DOMAIN-SUFFIX,onedrive.com
+DOMAIN-SUFFIX,protection.outlook.com
+DOMAIN-SUFFIX,sharepoint.com
+DOMAIN-SUFFIX,sharepointonline.com
+DOMAIN-SUFFIX,skype.com
+DOMAIN-SUFFIX,static.microsoft
+DOMAIN-SUFFIX,usercontent.microsoft
+DOMAIN-SUFFIX,visualstudio.com
+DOMAIN-SUFFIX,windows.net
+DOMAIN-SUFFIX,windowsazure.com
