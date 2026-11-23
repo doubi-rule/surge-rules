@@ -1,6 +1,16 @@
 # ai.list - AI 服务 (自维护, 走代理)
+# 策略在 surge.conf 里定: RULE-SET,...,🤖 AI
 DOMAIN-SUFFIX,aistudio.google.com
 DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,chatglm.cn
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,deepseek.com
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,moonshot.cn
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,poe.com
