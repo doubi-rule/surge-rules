@@ -7,7 +7,8 @@
 ```
 .
 ├── rules/
-│   ├── my-direct.list    # 马来西亚本地直连 - 最重要, 自己维护
+│   ├── microsoft.list    # Microsoft 365 / 学校账号登录 - 最重要, 永远 DIRECT, 放最前面
+│   ├── my-direct.list    # 马来西亚本地直连, 自己维护
 │   ├── ai.list           # ChatGPT / Claude / Gemini
 │   ├── streaming.list    # Netflix / Disney+ / TikTok / YouTube
 │   ├── proxy.list        # 其他要走代理的
