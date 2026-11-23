@@ -1,0 +1,16 @@
+# proxy.list - 其他需要走代理的 (自维护)
+# 马来西亚模式下这个文件应该很小, 大部分流量 FINAL,DIRECT
+# 只放你在 MY 打不开、或想换 IP 的站
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,medium.com
+DOMAIN-SUFFIX,notion.site
+DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,redd.it
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,x.com
