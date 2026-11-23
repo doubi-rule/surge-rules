@@ -1,0 +1,14 @@
+# reject.list - 广告 / 追踪 (自维护, 保守策略, 宁缺勿滥)
+# 建议: 初期只放你确认的, 大批量广告规则先用上游 Loyalsoldier reject, 再把误杀的加到 allowlist
+DOMAIN-SUFFIX,ads.yahoo.com
+DOMAIN-SUFFIX,adservice.google.com
+DOMAIN-SUFFIX,adsystem.com
+DOMAIN-SUFFIX,advertising.com
+DOMAIN-SUFFIX,analytics.google.com
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,hotjar.com
+DOMAIN-SUFFIX,quantserve.com
+DOMAIN-SUFFIX,scorecardresearch.com
