@@ -1,0 +1,25 @@
+# school.list - 美国社区大学学校账号 / 课程系统 (自维护, 永远 DIRECT)
+# 学校官网域名 + 课程系统第三方域名, 一起放这里, 登录和上课都不要走代理.
+# 策略在 surge.conf 里定: RULE-SET,...,DIRECT, 放在 microsoft.list 后面, reject 前面.
+#
+# Joliet Junior College - jjc.edu
+#   官网 jjc.edu, 学生邮箱 @stu.jjc.edu, MyJJC my.jjc.edu, 课程 iCampus / Canvas 在 icampus.instructure.com
+# Lane Community College - lanecc.edu
+#   官网 lanecc.edu, 学生邮箱 @lanecc.edu, myLane my.lanecc.edu, 课程 Canvas 在 canvas.lanecc.edu
+# Northampton Community College - northampton.edu
+#   官网 northampton.edu, 学生邮箱 @student.northampton.edu, NCC Go nccgo.northampton.edu,
+#   课程 Brightspace 在 brightspace.northampton.edu, 学生门户 Workday 在 workday.com / myworkday.com
+#
+# 第三方课程系统:
+#   instructure.com = Canvas (JJC + Lane 共用)
+#   brightspace.com / d2l.com = Brightspace (Northampton, 含 Pulse App)
+#   workday.com / myworkday.com = Workday 学生门户 (Northampton)
+
+DOMAIN-SUFFIX,brightspace.com
+DOMAIN-SUFFIX,d2l.com
+DOMAIN-SUFFIX,instructure.com
+DOMAIN-SUFFIX,jjc.edu
+DOMAIN-SUFFIX,lanecc.edu
+DOMAIN-SUFFIX,myworkday.com
+DOMAIN-SUFFIX,northampton.edu
+DOMAIN-SUFFIX,workday.com
