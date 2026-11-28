@@ -1,0 +1,13 @@
+# proxy.txt - Surge DOMAIN-SET, generated from rules/proxy.list, do not edit by hand
+# Source: https://github.com/doubi-rule/surge-rules/blob/main/rules/proxy.list
+# Format: .example.com = match domain + all subdomains (like DOMAIN-SUFFIX)
+# Usage: DOMAIN-SET,https://raw.githubusercontent.com/doubi-rule/surge-rules/main/domain-set/proxy.txt,<policy>
+
+.github.com
+.githubassets.com
+.githubusercontent.com
+.medium.com
+.notion.site
+.notion.so
+.redd.it
+.reddit.com
