@@ -1,0 +1,13 @@
+# school.txt - Surge DOMAIN-SET, generated from rules/school.list, do not edit by hand
+# Source: https://github.com/doubi-rule/surge-rules/blob/main/rules/school.list
+# Format: .example.com = match domain + all subdomains (like DOMAIN-SUFFIX)
+# Usage: DOMAIN-SET,https://raw.githubusercontent.com/doubi-rule/surge-rules/main/domain-set/school.txt,<policy>
+
+.brightspace.com
+.d2l.com
+.instructure.com
+.jjc.edu
+.lanecc.edu
+.myworkday.com
+.northampton.edu
+.workday.com
