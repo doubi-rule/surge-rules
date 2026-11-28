@@ -1,0 +1,24 @@
+# streaming.txt - Surge DOMAIN-SET, generated from rules/streaming.list, do not edit by hand
+# Source: https://github.com/doubi-rule/surge-rules/blob/main/rules/streaming.list
+# Format: .example.com = match domain + all subdomains (like DOMAIN-SUFFIX)
+# Usage: DOMAIN-SET,https://raw.githubusercontent.com/doubi-rule/surge-rules/main/domain-set/streaming.txt,<policy>
+
+.amazonvideo.com
+.disney-plus.net
+.disneyplus.bn5x.net
+.disneyplus.com
+.googlevideo.com
+.hbomax.com
+.hulu.com
+.max.com
+.netflix.com
+.nflxext.com
+.nflxvideo.net
+.primevideo.com
+.scdn.co
+.spotify.com
+.tiktok.com
+.tiktokcdn.com
+.tiktokv.com
+.youtube.com
+.ytimg.com
