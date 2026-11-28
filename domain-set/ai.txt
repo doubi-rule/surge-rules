@@ -1,0 +1,23 @@
+# ai.txt - Surge DOMAIN-SET, generated from rules/ai.list, do not edit by hand
+# Source: https://github.com/doubi-rule/surge-rules/blob/main/rules/ai.list
+# Format: .example.com = match domain + all subdomains (like DOMAIN-SUFFIX)
+# Usage: DOMAIN-SET,https://raw.githubusercontent.com/doubi-rule/surge-rules/main/domain-set/ai.txt,<policy>
+
+.aistudio.google.com
+.anthropic.com
+.chatglm.cn
+.chatgpt.com
+.claude.ai
+.claude.com
+.deepseek.com
+.gemini.google.com
+.meta.ai
+.meta.com
+.metaaivm.com
+.moonshot.cn
+.muse.ai
+.oaistatic.com
+.oaiusercontent.com
+.openai.com
+.perplexity.ai
+.poe.com
