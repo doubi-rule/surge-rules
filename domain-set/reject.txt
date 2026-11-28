@@ -13,5 +13,6 @@
 .googleadservices.com
 .googlesyndication.com
 .hotjar.com
+.iadsdk.apple.com
 .quantserve.com
 .scorecardresearch.com
