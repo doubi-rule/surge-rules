@@ -1,0 +1,19 @@
+# douyin.txt - Surge DOMAIN-SET, generated from rules/douyin.list, do not edit by hand
+# Source: https://github.com/doubi-rule/surge-rules/blob/main/rules/douyin.list
+# Format: .example.com = match domain + all subdomains (like DOMAIN-SUFFIX)
+# Usage: DOMAIN-SET,https://raw.githubusercontent.com/doubi-rule/surge-rules/main/domain-set/douyin.txt,<policy>
+
+.amemv.com
+.bytecdn.cn
+.bytedance.com
+.douyin.com
+.douyincdn.com
+.douyinpic.com
+.douyinstatic.com
+.douyinvod.com
+.idouyinvod.com
+.ixigua.com
+.ixiguavideo.com
+.pstatp.com
+.snssdk.com
+.toutiao.com
