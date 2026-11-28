@@ -1,0 +1,32 @@
+# microsoft.txt - Surge DOMAIN-SET, generated from rules/microsoft.list, do not edit by hand
+# Source: https://github.com/doubi-rule/surge-rules/blob/main/rules/microsoft.list
+# Format: .example.com = match domain + all subdomains (like DOMAIN-SUFFIX)
+# Usage: DOMAIN-SET,https://raw.githubusercontent.com/doubi-rule/surge-rules/main/domain-set/microsoft.txt,<policy>
+
+.1drv.com
+.autologon.microsoftazuread-sso.com
+.azure.com
+.cloud.microsoft
+.live.com
+.microsoft.com
+.microsoft365.com
+.microsoftonline-p.com
+.microsoftonline-p.net
+.microsoftonline.com
+.msftauth.net
+.msftidentity.com
+.msidentity.com
+.msn.com
+.office.com
+.office.net
+.office365.com
+.onedrive.com
+.protection.outlook.com
+.sharepoint.com
+.sharepointonline.com
+.skype.com
+.static.microsoft
+.usercontent.microsoft
+.visualstudio.com
+.windows.net
+.windowsazure.com
