@@ -1,0 +1,33 @@
+# my-direct.txt - Surge DOMAIN-SET, generated from rules/my-direct.list, do not edit by hand
+# Source: https://github.com/doubi-rule/surge-rules/blob/main/rules/my-direct.list
+# Format: .example.com = match domain + all subdomains (like DOMAIN-SUFFIX)
+# Usage: DOMAIN-SET,https://raw.githubusercontent.com/doubi-rule/surge-rules/main/domain-set/my-direct.txt,<policy>
+
+.affinbank.com.my
+.ambank.com.my
+.astro.com.my
+.celcomdigi.com
+.cimb.com.my
+.cimbclicks.com.my
+.digi.com.my
+.foodpanda.my
+.grab.com
+.hasil.gov.my
+.hlb.com.my
+.hotlink.com.my
+.kwsp.gov.my
+.lazada.com.my
+.malaysia.gov.my
+.maxis.com.my
+.maybank.com.my
+.maybank2u.com.my
+.moh.gov.my
+.publicbank.com.my
+.rhbgroup.com
+.shopee.com.my
+.tm.com.my
+.tngdigital.com.my
+.touchngo.com.my
+.u.com.my
+.unifi.com.my
+.yes.com.my
