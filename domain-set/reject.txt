@@ -1,0 +1,17 @@
+# reject.txt - Surge DOMAIN-SET, generated from rules/reject.list, do not edit by hand
+# Source: https://github.com/doubi-rule/surge-rules/blob/main/rules/reject.list
+# Format: .example.com = match domain + all subdomains (like DOMAIN-SUFFIX)
+# Usage: DOMAIN-SET,https://raw.githubusercontent.com/doubi-rule/surge-rules/main/domain-set/reject.txt,<policy>
+
+.ads.yahoo.com
+.adservice.google.com
+.adsystem.com
+.advertising.com
+.analytics.google.com
+.doubleclick.net
+.google-analytics.com
+.googleadservices.com
+.googlesyndication.com
+.hotjar.com
+.quantserve.com
+.scorecardresearch.com
