@@ -1,0 +1,13 @@
+# apple.txt - Surge DOMAIN-SET, generated from rules/apple.list, do not edit by hand
+# Source: https://github.com/doubi-rule/surge-rules/blob/main/rules/apple.list
+# Format: .example.com = match domain + all subdomains (like DOMAIN-SUFFIX)
+# Usage: DOMAIN-SET,https://raw.githubusercontent.com/doubi-rule/surge-rules/main/domain-set/apple.txt,<policy>
+
+.apple-cloudkit.com
+.apple-dns.net
+.apple.com
+.appstore.com
+.cdn-apple.com
+.icloud.com
+.itunes.com
+.mzstatic.com
